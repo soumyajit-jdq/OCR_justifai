@@ -1,0 +1,781 @@
+{
+  "document_type": "Statement of Marks",
+  "issuing_authority": "BIRSA MUNDA TRIBAL UNIVERSITY",
+  "main_details": [
+    {
+      "key": "Name",
+      "value": "PADVI VISHALBHAI RAJUBHAI"
+    },
+    {
+      "key": "Enrollment No.",
+      "value": "202303030020012"
+    },
+    {
+      "key": "College Name & Code",
+      "value": "03 - School of Science"
+    },
+    {
+      "key": "Principal Subject",
+      "value": "Zoology"
+    },
+    {
+      "key": "Examination",
+      "value": "November-2025"
+    },
+    {
+      "key": "Seat No.",
+      "value": "23531211"
+    },
+    {
+      "key": "Exam Centre",
+      "value": "Rajpipla"
+    },
+    {
+      "key": "Exam",
+      "value": "Regular"
+    },
+    {
+      "key": "Issue Date",
+      "value": "05/01/2026"
+    },
+    {
+      "key": "Serial Number",
+      "value": "2025030259"
+    }
+  ],
+  "tables": [
+    {
+      "table_name": "Subject Marks",
+      "columns": [
+        "Subject Code",
+        "Subject Name",
+        "CR",
+        "Passing Marks (Internal)",
+        "Passing Marks (External)",
+        "Passing Marks (Total)",
+        "Marks Obtained (Internal)",
+        "Marks Obtained (External)",
+        "Marks Obtained (Total)",
+        "GR",
+        "GP",
+        "EGP",
+        "Remarks"
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "key": "Subject Code",
+              "value": "SFC501ENG"
+            },
+            {
+              "key": "Subject Name",
+              "value": "English-V"
+            },
+            {
+              "key": "CR",
+              "value": "2"
+            },
+            {
+              "key": "Passing Marks (Internal)",
+              "value": "12/30"
+            },
+            {
+              "key": "Passing Marks (External)",
+              "value": "28/70"
+            },
+            {
+              "key": "Passing Marks (Total)",
+              "value": "40/100"
+            },
+            {
+              "key": "Marks Obtained (Internal)",
+              "value": "19"
+            },
+            {
+              "key": "Marks Obtained (External)",
+              "value": "39"
+            },
+            {
+              "key": "Marks Obtained (Total)",
+              "value": "58"
+            },
+            {
+              "key": "GR",
+              "value": "B+"
+            },
+            {
+              "key": "GP",
+              "value": "5.8"
+            },
+            {
+              "key": "EGP",
+              "value": "11.6"
+            },
+            {
+              "key": "Remarks",
+              "value": "E,C"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "key": "Subject Code",
+              "value": "SCC501Z11"
+            },
+            {
+              "key": "Subject Name",
+              "value": "Animal Diversity"
+            },
+            {
+              "key": "CR",
+              "value": "2"
+            },
+            {
+              "key": "Passing Marks (Internal)",
+              "value": "12/30"
+            },
+            {
+              "key": "Passing Marks (External)",
+              "value": "28/70"
+            },
+            {
+              "key": "Passing Marks (Total)",
+              "value": "40/100"
+            },
+            {
+              "key": "Marks Obtained (Internal)",
+              "value": "22"
+            },
+            {
+              "key": "Marks Obtained (External)",
+              "value": "54"
+            },
+            {
+              "key": "Marks Obtained (Total)",
+              "value": "76"
+            },
+            {
+              "key": "GR",
+              "value": "O"
+            },
+            {
+              "key": "GP",
+              "value": "7.6"
+            },
+            {
+              "key": "EGP",
+              "value": "15.2"
+            },
+            {
+              "key": "Remarks",
+              "value": "E,C"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "key": "Subject Code",
+              "value": "SCC502Z12"
+            },
+            {
+              "key": "Subject Name",
+              "value": "Animal Diversity (Chordate)-III"
+            },
+            {
+              "key": "CR",
+              "value": "2"
+            },
+            {
+              "key": "Passing Marks (Internal)",
+              "value": "12/30"
+            },
+            {
+              "key": "Passing Marks (External)",
+              "value": "28/70"
+            },
+            {
+              "key": "Passing Marks (Total)",
+              "value": "40/100"
+            },
+            {
+              "key": "Marks Obtained (Internal)",
+              "value": "24"
+            },
+            {
+              "key": "Marks Obtained (External)",
+              "value": "42"
+            },
+            {
+              "key": "Marks Obtained (Total)",
+              "value": "66"
+            },
+            {
+              "key": "GR",
+              "value": "A"
+            },
+            {
+              "key": "GP",
+              "value": "6.6"
+            },
+            {
+              "key": "EGP",
+              "value": "13.2"
+            },
+            {
+              "key": "Remarks",
+              "value": "E,C"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "key": "Subject Code",
+              "value": "SCC503Z13"
+            },
+            {
+              "key": "Subject Name",
+              "value": "Cytology Biochemistry-I"
+            },
+            {
+              "key": "CR",
+              "value": "2"
+            },
+            {
+              "key": "Passing Marks (Internal)",
+              "value": "12/30"
+            },
+            {
+              "key": "Passing Marks (External)",
+              "value": "28/70"
+            },
+            {
+              "key": "Passing Marks (Total)",
+              "value": "40/100"
+            },
+            {
+              "key": "Marks Obtained (Internal)",
+              "value": "22"
+            },
+            {
+              "key": "Marks Obtained (External)",
+              "value": "52"
+            },
+            {
+              "key": "Marks Obtained (Total)",
+              "value": "74"
+            },
+            {
+              "key": "GR",
+              "value": "O"
+            },
+            {
+              "key": "GP",
+              "value": "7.4"
+            },
+            {
+              "key": "EGP",
+              "value": "14.8"
+            },
+            {
+              "key": "Remarks",
+              "value": "E,C"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "key": "Subject Code",
+              "value": "SCC504Z14"
+            },
+            {
+              "key": "Subject Name",
+              "value": "Genetics and Evolution"
+            },
+            {
+              "key": "CR",
+              "value": "2"
+            },
+            {
+              "key": "Passing Marks (Internal)",
+              "value": "12/30"
+            },
+            {
+              "key": "Passing Marks (External)",
+              "value": "28/70"
+            },
+            {
+              "key": "Passing Marks (Total)",
+              "value": "40/100"
+            },
+            {
+              "key": "Marks Obtained (Internal)",
+              "value": "21"
+            },
+            {
+              "key": "Marks Obtained (External)",
+              "value": "60"
+            },
+            {
+              "key": "Marks Obtained (Total)",
+              "value": "81"
+            },
+            {
+              "key": "GR",
+              "value": "O"
+            },
+            {
+              "key": "GP",
+              "value": "8.1"
+            },
+            {
+              "key": "EGP",
+              "value": "16.2"
+            },
+            {
+              "key": "Remarks",
+              "value": "E,C"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "key": "Subject Code",
+              "value": "SCC505Z15"
+            },
+            {
+              "key": "Subject Name",
+              "value": "Physiology and Embryology-I"
+            },
+            {
+              "key": "CR",
+              "value": "2"
+            },
+            {
+              "key": "Passing Marks (Internal)",
+              "value": "12/30"
+            },
+            {
+              "key": "Passing Marks (External)",
+              "value": "28/70"
+            },
+            {
+              "key": "Passing Marks (Total)",
+              "value": "40/100"
+            },
+            {
+              "key": "Marks Obtained (Internal)",
+              "value": "24"
+            },
+            {
+              "key": "Marks Obtained (External)",
+              "value": "53"
+            },
+            {
+              "key": "Marks Obtained (Total)",
+              "value": "77"
+            },
+            {
+              "key": "GR",
+              "value": "O"
+            },
+            {
+              "key": "GP",
+              "value": "7.7"
+            },
+            {
+              "key": "EGP",
+              "value": "15.4"
+            },
+            {
+              "key": "Remarks",
+              "value": "E,C"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "key": "Subject Code",
+              "value": "SCC506Z16"
+            },
+            {
+              "key": "Subject Name",
+              "value": "Ecology and Wild Life Biology"
+            },
+            {
+              "key": "CR",
+              "value": "2"
+            },
+            {
+              "key": "Passing Marks (Internal)",
+              "value": "12/30"
+            },
+            {
+              "key": "Passing Marks (External)",
+              "value": "28/70"
+            },
+            {
+              "key": "Passing Marks (Total)",
+              "value": "40/100"
+            },
+            {
+              "key": "Marks Obtained (Internal)",
+              "value": "27"
+            },
+            {
+              "key": "Marks Obtained (External)",
+              "value": "43"
+            },
+            {
+              "key": "Marks Obtained (Total)",
+              "value": "70"
+            },
+            {
+              "key": "GR",
+              "value": "O"
+            },
+            {
+              "key": "GP",
+              "value": "7.0"
+            },
+            {
+              "key": "EGP",
+              "value": "14.0"
+            },
+            {
+              "key": "Remarks",
+              "value": "E,C"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "key": "Subject Code",
+              "value": "SEC501IMN"
+            },
+            {
+              "key": "Subject Name",
+              "value": "Immunology"
+            },
+            {
+              "key": "CR",
+              "value": "2"
+            },
+            {
+              "key": "Passing Marks (Internal)",
+              "value": "12/30"
+            },
+            {
+              "key": "Passing Marks (External)",
+              "value": "28/70"
+            },
+            {
+              "key": "Passing Marks (Total)",
+              "value": "40/100"
+            },
+            {
+              "key": "Marks Obtained (Internal)",
+              "value": "24"
+            },
+            {
+              "key": "Marks Obtained (External)",
+              "value": "58"
+            },
+            {
+              "key": "Marks Obtained (Total)",
+              "value": "82"
+            },
+            {
+              "key": "GR",
+              "value": "O"
+            },
+            {
+              "key": "GP",
+              "value": "8.2"
+            },
+            {
+              "key": "EGP",
+              "value": "16.4"
+            },
+            {
+              "key": "Remarks",
+              "value": "E,C"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "key": "Subject Code",
+              "value": "SPR501PRA"
+            },
+            {
+              "key": "Subject Name",
+              "value": "Zoology Practical Module-V"
+            },
+            {
+              "key": "CR",
+              "value": "6"
+            },
+            {
+              "key": "Passing Marks (Internal)",
+              "value": "36/90"
+            },
+            {
+              "key": "Passing Marks (External)",
+              "value": "84/210"
+            },
+            {
+              "key": "Passing Marks (Total)",
+              "value": "120/300"
+            },
+            {
+              "key": "Marks Obtained (Internal)",
+              "value": "74"
+            },
+            {
+              "key": "Marks Obtained (External)",
+              "value": "154"
+            },
+            {
+              "key": "Marks Obtained (Total)",
+              "value": "228"
+            },
+            {
+              "key": "GR",
+              "value": "O"
+            },
+            {
+              "key": "GP",
+              "value": "7.6"
+            },
+            {
+              "key": "EGP",
+              "value": "45.6"
+            },
+            {
+              "key": "Remarks",
+              "value": "E,C"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "key": "Subject Code",
+              "value": "Total"
+            },
+            {
+              "key": "Subject Name",
+              "value": ""
+            },
+            {
+              "key": "CR",
+              "value": "22"
+            },
+            {
+              "key": "Passing Marks (Internal)",
+              "value": "132/330"
+            },
+            {
+              "key": "Passing Marks (External)",
+              "value": "308/770"
+            },
+            {
+              "key": "Passing Marks (Total)",
+              "value": "440/1100"
+            },
+            {
+              "key": "Marks Obtained (Internal)",
+              "value": "257"
+            },
+            {
+              "key": "Marks Obtained (External)",
+              "value": "555"
+            },
+            {
+              "key": "Marks Obtained (Total)",
+              "value": "812"
+            },
+            {
+              "key": "GR",
+              "value": ""
+            },
+            {
+              "key": "GP",
+              "value": ""
+            },
+            {
+              "key": "EGP",
+              "value": "162.4"
+            },
+            {
+              "key": "Remarks",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "table_name": "Semester Performance",
+      "columns": [
+        "Semester",
+        "SGPA",
+        "Grade",
+        "Percentage",
+        "Class",
+        "Status"
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "key": "Semester",
+              "value": "Semester-I"
+            },
+            {
+              "key": "SGPA",
+              "value": "6.25"
+            },
+            {
+              "key": "Grade",
+              "value": "A"
+            },
+            {
+              "key": "Percentage",
+              "value": "62.55"
+            },
+            {
+              "key": "Class",
+              "value": "First Class"
+            },
+            {
+              "key": "Status",
+              "value": "Complete"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "key": "Semester",
+              "value": "Semester-II"
+            },
+            {
+              "key": "SGPA",
+              "value": "6.69"
+            },
+            {
+              "key": "Grade",
+              "value": "A"
+            },
+            {
+              "key": "Percentage",
+              "value": "66.91"
+            },
+            {
+              "key": "Class",
+              "value": "First Class"
+            },
+            {
+              "key": "Status",
+              "value": "Complete"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "key": "Semester",
+              "value": "Semester-III"
+            },
+            {
+              "key": "SGPA",
+              "value": "5.86"
+            },
+            {
+              "key": "Grade",
+              "value": "B+"
+            },
+            {
+              "key": "Percentage",
+              "value": "58.64"
+            },
+            {
+              "key": "Class",
+              "value": "Higher Second Class"
+            },
+            {
+              "key": "Status",
+              "value": "Complete"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "key": "Semester",
+              "value": "Semester-IV"
+            },
+            {
+              "key": "SGPA",
+              "value": "8.56"
+            },
+            {
+              "key": "Grade",
+              "value": "O+"
+            },
+            {
+              "key": "Percentage",
+              "value": "74.36"
+            },
+            {
+              "key": "Class",
+              "value": "FIRST CLASS WITH DISTINCTION"
+            },
+            {
+              "key": "Status",
+              "value": "Complete"
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "key": "Semester",
+              "value": "Semester-V"
+            },
+            {
+              "key": "SGPA",
+              "value": "7.38"
+            },
+            {
+              "key": "Grade",
+              "value": "O"
+            },
+            {
+              "key": "Percentage",
+              "value": "73.82"
+            },
+            {
+              "key": "Class",
+              "value": "FIRST CLASS WITH DISTINCTION"
+            },
+            {
+              "key": "Status",
+              "value": "Complete"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
