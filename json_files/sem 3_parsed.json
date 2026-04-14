@@ -1,0 +1,193 @@
+{
+  "issuing_authority": "SILVER OAK UNIVERSITY",
+  "document_title": "SEMESTER GRADE REPORT",
+  "main_details": [
+    {
+      "key": "Sr. No. :",
+      "value": "231719001"
+    },
+    {
+      "key": "Institute Name",
+      "value": "ADITYA SILVER OAK INSTITUTE OF TECHNOLOGY"
+    },
+    {
+      "key": "Academic Year",
+      "value": "2023-2024"
+    },
+    {
+      "key": "Student's Name",
+      "value": "SOJITRA YASHKUMAR MANSUKHBHAI"
+    },
+    {
+      "key": "Month & Year of Exam",
+      "value": "NOVEMBER-2023"
+    },
+    {
+      "key": "Seat No.",
+      "value": "W230204090"
+    },
+    {
+      "key": "Enrollment No. (Old)",
+      "value": " - "
+    },
+    {
+      "key": "Enrollment No. (New)",
+      "value": "2202031000143"
+    },
+    {
+      "key": "Programme",
+      "value": "BACHELOR OF TECHNOLOGY"
+    },
+    {
+      "key": "Semester",
+      "value": "3"
+    },
+    {
+      "key": "Branch",
+      "value": "INFORMATION TECHNOLOGY"
+    },
+    {
+      "key": "Exam Type",
+      "value": "REGULAR"
+    },
+    {
+      "key": "Result Declared on :",
+      "value": "4th January, 2024"
+    }
+  ],
+  "tables": [
+    {
+      "table_name": null,
+      "columns": [
+        {
+          "header": "SUBJECT CODE",
+          "sub_headers": null
+        },
+        {
+          "header": "SUBJECT NAME",
+          "sub_headers": null
+        },
+        {
+          "header": "CREDIT",
+          "sub_headers": null
+        },
+        {
+          "header": "THEORY",
+          "sub_headers": [
+            "CIE",
+            "ESE",
+            "TOTAL GRADE"
+          ]
+        },
+        {
+          "header": "PRACTICAL",
+          "sub_headers": [
+            "CIE",
+            "ESE",
+            "TOTAL GRADE"
+          ]
+        },
+        {
+          "header": "SUBJECT GRADE",
+          "sub_headers": null
+        }
+      ],
+      "rows": [
+        [
+          "1010043222",
+          "DATA STRUCTURES",
+          "6",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O"
+        ],
+        [
+          "1010043223",
+          "DATABASE MANAGEMENT SYSTEMS",
+          "6",
+          "A+",
+          "A",
+          "A",
+          "O",
+          "O",
+          "O",
+          "A+"
+        ],
+        [
+          "1010043224",
+          "FUNDAMENTALS OF CLOUD COMPUTING",
+          "4",
+          "O",
+          "B+",
+          "A",
+          "O",
+          "A",
+          "A+",
+          "A+"
+        ],
+        [
+          "1010043291",
+          "INNOVATION AND DESIGN THINKING-I",
+          "3",
+          "-",
+          "-",
+          "-",
+          "A+",
+          "O",
+          "O",
+          "O"
+        ],
+        [
+          "1010083214",
+          "DIGITAL LOGICS",
+          "4",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O",
+          "O"
+        ]
+      ]
+    },
+    {
+      "table_name": null,
+      "columns": null,
+      "rows": [
+        [
+          "Credits offered",
+          "23",
+          "Credits Earned",
+          "23",
+          "Current Backlog",
+          "0",
+          "SPI",
+          "9.57",
+          "CGPA",
+          "-",
+          "Result",
+          "PASS"
+        ],
+        [
+          "Total Credits offered",
+          "58",
+          "Total Credits Earned",
+          "58",
+          "Total Backlog",
+          "0",
+          "CPI",
+          "9.45",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ]
+}

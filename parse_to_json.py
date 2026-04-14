@@ -33,52 +33,73 @@ try:
 except ImportError:
     HAS_PIL = False
 
-# Define the Target JSON Schema using Pydantic
+try:
+    import fitz  # PyMuPDF
+    HAS_FITZ = True
+except ImportError:
+    HAS_FITZ = False
+
+from typing import List, Optional, Dict, Union
 class KeyValueField(BaseModel):
-    key: str = Field(description="The name of the field (e.g., 'Student Name', 'Date of Issue', 'CGPA')")
+    key: str = Field(description="The exact label text from the document, preserving all characters including colons, spaces, and supplementary words (e.g., 'Name :', 'Enrollment No. :', 'His/Her Principal Subject is :')")
     value: str = Field(description="The extracted value for this field")
 
-class TableRow(BaseModel):
-    cells: List[KeyValueField] = Field(description="The cells of the row. Use the column name as the 'key' and the cell contents as the 'value'.")
+class TableColumn(BaseModel):
+    header: str = Field(description="The main header text for this column")
+    sub_headers: Optional[List[str]] = Field(None, description="List of sub-headers if this is a grouped column (e.g. ['Internal', 'External', 'Total'] under 'Passing Marks')")
 
 class DataTable(BaseModel):
-    table_name: str = Field(description="A descriptive name for the table (e.g., 'Semester Marks', 'Grades')")
-    columns: List[str] = Field(description="The column headers of the table")
-    rows: List[TableRow] = Field(description="The rows of data.")
+    table_name: Optional[str] = Field(None, description="A descriptive name for the table if explicitly labeled in the document")
+    columns: Optional[List[TableColumn]] = Field(None, description="The hierarchical column structure of the table, if present")
+    rows: List[List[str]] = Field(description="The data rows. Each row is a simple list of cell values corresponding exactly to the flat sequence of all leaf headers/sub-headers.")
 
 class GenericDocumentData(BaseModel):
-    document_type: str = Field(description="The detected type of the document (e.g., 'Marksheet', 'Degree', 'Certificate')")
     issuing_authority: str = Field(description="The organization that issued the document (e.g., University Name, Board Name)")
+    document_title: str = Field(description="The main title of the document (e.g., 'Statement of Marks', 'Bachelor of Science Semester-V', 'certificate')")
     main_details: List[KeyValueField] = Field(description="General key-value information extracted from the document")
     tables: List[DataTable] = Field(description="Any structured or tabular data found in the document (like lists of subjects, marks, or any other tables)")
 
 
 # Parsing Functions using AI Models
-def parse_with_gemini(image_path: str, api_key: str, max_retries: int = 4) -> str:
+def parse_with_gemini(image_input: Union[str, Image.Image], api_key: str, max_retries: int = 4) -> str:
     """Uses Google's Gemini API with native Vision capabilities and Structured Outputs"""
     if not HAS_GEMINI:
         raise ImportError("google-genai package is not installed. Run `pip install google-genai`")
     if not HAS_PIL:
         raise ImportError("pillow package is not installed. Run `pip install pillow`")
     
-    print("\nSending image directly to Gemini API for processing...")
+    # print("\nSending image directly to Gemini API for processing...")
     client = genai.Client(api_key=api_key)
     
     # Models
     models_to_try = [
-        'gemini-2.5-flash', 
-        'gemini-2.5-pro', 
-        'gemini-2.0-flash', 
-        'gemini-flash-latest',
+        # 'gemini-2.5-flash', 
+        # 'gemini-flash-latest',
         'gemini-3.1-flash-lite-preview',
-        # 'gemini-1.5-flash',
-        # 'gemini-2.0-flash-lite',
     ]
 
     last_exception = None
 
-    img = Image.open(image_path)
-    prompt = "Analyze the image and extract all structured details into JSON. Extract every single field, including Enrollment No, Seat No, and the intricate details in the table (Marks, CR, GR, GP, EGP, Remarks). Return exactly matching the JSON schema."
+    if isinstance(image_input, str):
+        img = Image.open(image_input)
+    else:
+        img = image_input
+    prompt = (
+        "Analyze the image and extract all structured details into JSON.\n\n"
+        "1. DOCUMENT TITLE: Extract the main title of the document (e.g., 'Statement of Marks Bachelor of Science Semester-V') into the `document_title` field. "
+        "DO NOT use this document title as the `table_name` for individual tables.\n"
+        "2. MAIN DETAILS: For 'main_details', you MUST preserve the EXACT labels from the document as keys. "
+        "This includes all punctuation (like colons ':'), spaces, and helper words (e.g., 'Name : ', 'Enrollment No. : ', 'His/Her Principal Subject is : ', 'Serial Number : '). "
+        "DO NOT normalize, shorten, or clean up the labels; they should be exactly as they appear in the image.\n\n"
+        "TABLE EXTRACTION INSTRUCTIONS:\n"
+        "1. For tables with hierarchical headers (merged cells), use the `sub_headers` field in `TableColumn`. "
+        "   For example, if 'Passing Marks' covers 3 columns ('Internal', 'External', 'Total'), the `header` should be 'Passing Marks' and `sub_headers` should be ['Internal', 'External', 'Total'].\n"
+        "2. If a table does NOT have a clear title or specific column headers in the image, strictly omit the `table_name` or `columns` fields (set them to null).\n"
+        "3. PRECISION ALIGNMENT: Each row must be a flat list of cell values corresponding EXACTLY to the visual leaf-headers sequence. "
+        "   IMPORTANT: Pay meticulous attention to empty cells. If a row (e.g., the 'Total' row) has an empty space before the text label, you MUST provide an empty string for that column. NEVER shift values or skip empty columns. Every cell must align perfectly with its visual header.\n"
+        "4. Capture every single row and column precisely. This data is used for Merkle tree hashing, so absolute structural accuracy is required.\n\n"
+        "Return exactly matching the JSON schema."
+    )
 
     for model_name in models_to_try:
         print(f"\nAttempting extraction with model: {model_name}...")
@@ -126,15 +147,38 @@ def encode_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
 
-def parse_with_openai(image_path: str, api_key: str) -> str:
+def parse_with_openai(image_input: Union[str, Image.Image], api_key: str) -> str:
     """Uses OpenAI's API with native Vision capabilities and Structured Outputs"""
     if not HAS_OPENAI:
         raise ImportError("openai package is not installed. Run `pip install openai`")
     
-    print("\nSending image directly to OpenAI API for processing...")
+    # print("\nSending image directly to OpenAI API for processing...")
     client = OpenAI(api_key=api_key)
-    base64_image = encode_image(image_path)
-    prompt = "Analyze the image and extract all structured details into JSON. Extract every single field, including Enrollment No, Seat No, and the intricate details in the table (Marks, CR, GR, GP, EGP, Remarks)."
+    
+    if isinstance(image_input, str):
+        base64_image = encode_image(image_input)
+    else:
+        # Convert PIL Image to base64
+        import io
+        buffered = io.BytesIO()
+        image_input.save(buffered, format="JPEG")
+        base64_image = base64.b64encode(buffered.getvalue()).decode('utf-8')
+    prompt = (
+        "Analyze the image and extract all structured details into JSON.\n\n"
+        "1. DOCUMENT TITLE: Extract the main title of the document (e.g., 'Statement of Marks Bachelor of Science Semester-V') into the `document_title` field. "
+        "DO NOT use this document title as the `table_name` for individual tables.\n"
+        "2. MAIN DETAILS: For 'main_details', you MUST preserve the EXACT labels from the document as keys. "
+        "This includes all punctuation (like colons ':'), spaces, and helper words (e.g., 'Name : ', 'Enrollment No. : ', 'His/Her Principal Subject is : ', 'Serial Number : '). "
+        "DO NOT normalize, shorten, or clean up the labels; they should be exactly as they appear in the image.\n\n"
+        "TABLE EXTRACTION INSTRUCTIONS:\n"
+        "1. For tables with hierarchical headers (merged cells), use the `sub_headers` field in `TableColumn`. "
+        "   For example, if 'Passing Marks' covers 3 columns ('Internal', 'External', 'Total'), the `header` should be 'Passing Marks' and `sub_headers` should be ['Internal', 'External', 'Total'].\n"
+        "2. If a table does NOT have a clear title or specific column headers in the image, omit the `table_name` or `columns` fields (set them to null).\n"
+        "3. PRECISION ALIGNMENT: Each row must be a flat list of cell values corresponding EXACTLY to the visual leaf-headers sequence. "
+        "   IMPORTANT: Pay meticulous attention to empty cells. If a row (e.g., the 'Total' row) has an empty space before the text label, you MUST provide an empty string for that column. NEVER shift values or skip empty columns. Every cell must align perfectly with its visual header.\n"
+        "4. Capture every single row and column precisely. This data is used for Merkle tree hashing, so absolute structural accuracy is required.\n\n"
+        "Return exactly matching the JSON schema."
+    )
     
     completion = client.beta.chat.completions.parse(
         model="gpt-4o", # 'gpt-4o' supports image inputs natively
@@ -155,59 +199,92 @@ def parse_with_openai(image_path: str, api_key: str) -> str:
     return completion.choices[0].message.parsed.model_dump_json(indent=2)
 
 
+def process_file(file_path: str, llm: str, api_key: str):
+    """Processes a single image or PDF file"""
+    if not os.path.exists(file_path):
+        print(f"Error: File '{file_path}' not found.")
+        return
+
+    ext = os.path.splitext(file_path)[1].lower()
+    images_to_process = []
+    
+    if ext == ".pdf":
+        if not HAS_FITZ:
+            raise ImportError("pymupdf package is not installed. Run `pip install pymupdf` to process PDFs.")
+        print(f"\nProcessing PDF: {file_path}")
+        doc = fitz.open(file_path)
+        for i in range(len(doc)):
+            page = doc.load_page(i)
+            pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))  # Increase resolution for better OCR
+            img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+            images_to_process.append((img, f"page-{i+1}"))
+    else:
+        # Standard image
+        images_to_process.append((file_path, None))
+
+    for img_input, suffix in images_to_process:
+        try:
+            print(f"\n[{file_path}] Extraction started" + (f" ({suffix})" if suffix else "") + "...")
+            
+            if llm == "gemini":
+                json_result_str = parse_with_gemini(img_input, api_key)
+            elif llm == "openai":
+                json_result_str = parse_with_openai(img_input, api_key)
+            
+            structured_data = GenericDocumentData.model_validate_json(json_result_str)
+            structured_data = structured_data.model_dump()
+            
+            # Print truncated result
+            print(f"[{file_path}] JSON Result generated.")
+            
+            # Ensure json_files directory exists
+            output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "json_files")
+            os.makedirs(output_dir, exist_ok=True)
+
+            # Save to output file
+            base_name = os.path.splitext(os.path.basename(file_path))[0]
+            output_file_name = f"{base_name}_{suffix}_parsed.json" if suffix else f"{base_name}_parsed.json"
+            output_file = os.path.join(output_dir, output_file_name)
+            
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(structured_data, f, indent=2)
+                
+            print(f"[{file_path}] Saved to: {output_file}")
+            
+        except Exception as e:
+            print(f"\n[{file_path}] Error during AI Parsing: {str(e)}")
+
+
 # Main Workflow
 def main():
-    parser = argparse.ArgumentParser(description="Parse Marksheet image to JSON using AI Native Vision")
-    parser.add_argument("image_path", help="Path to the Marksheet Image")
+    parser = argparse.ArgumentParser(description="Parse Marksheet image/PDF to JSON using AI Native Vision")
+    parser.add_argument("input_path", help="Path to the Marksheet Image, PDF, or folder containing them")
     parser.add_argument("--llm", choices=["gemini", "openai"], default="gemini", help="Which LLM to use (default: gemini)")
     args = parser.parse_args()
 
-    if not os.path.exists(args.image_path):
-        print(f"Error: File '{args.image_path}' not found.")
-        return
+    # Get API Key
+    if args.llm == "gemini":
+        api_key = os.environ.get("GEMINI_API_KEY")
+        if not api_key:
+            raise ValueError("Please set the GEMINI_API_KEY environment variable.")
+    else:
+        api_key = os.environ.get("OPENAI_API_KEY")
+        if not api_key:
+            raise ValueError("Please set the OPENAI_API_KEY environment variable.")
 
-    # Skip local OCR entirely since LLM Vision is vastly superior and perfectly preserves layout/tables.
-    print(f"Input Image verified: {args.image_path}")
+    # Identify files to process
+    files_to_process = []
+    if os.path.isdir(args.input_path):
+        for f in os.listdir(args.input_path):
+            if f.lower().endswith(('.png', '.jpg', '.jpeg', '.pdf')):
+                files_to_process.append(os.path.join(args.input_path, f))
+        print(f"Found {len(files_to_process)} files in directory: {args.input_path}")
+    else:
+        files_to_process.append(args.input_path)
 
-    # Parse using AI Multi-modality Native Vision
-    try:
-        if args.llm == "gemini":
-            api_key = os.environ.get("GEMINI_API_KEY")
-            if not api_key:
-                raise ValueError("Please set the GEMINI_API_KEY environment variable. Example: set GEMINI_API_KEY=your_key")
-            
-            json_result_str = parse_with_gemini(args.image_path, api_key)
-            
-        elif args.llm == "openai":
-            api_key = os.environ.get("OPENAI_API_KEY")
-            if not api_key:
-                raise ValueError("Please set the OPENAI_API_KEY environment variable. Example: set OPENAI_API_KEY=your_key")
-                
-            json_result_str = parse_with_openai(args.image_path, api_key)
-            
-        # Parse text into a dict for pretty printing
-        structured_data = json.loads(json_result_str)
-        
-        print("\n" + "="*60)
-        print("FINAL STRUCTURED JSON RESULT")
-        print("="*60)
-        print(json.dumps(structured_data, indent=2))
-        
-        # Ensure json_files directory exists
-        output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "json_files")
-        os.makedirs(output_dir, exist_ok=True)
-
-        # Save to output file
-        base_name = os.path.splitext(os.path.basename(args.image_path))[0]
-        output_file = os.path.join(output_dir, f"{base_name}_parsed.json")
-        
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(structured_data, f, indent=2)
-            
-        print(f"\nSuccessfully saved parsed data to {output_file}")
-        
-    except Exception as e:
-        print(f"\nError during AI Parsing: {str(e)}")
+    # Loop through all files
+    for file_path in files_to_process:
+        process_file(file_path, args.llm, api_key)
 
 if __name__ == "__main__":
     main()

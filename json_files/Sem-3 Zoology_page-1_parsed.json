@@ -1,0 +1,324 @@
+{
+  "issuing_authority": "BIRSA MUNDA TRIBAL UNIVERSITY",
+  "document_title": "STATEMENT OF MARKS",
+  "main_details": [
+    {
+      "key": "ABC ID :",
+      "value": "366469579312"
+    },
+    {
+      "key": "This Statement of marks shows the Semester Grade obtained by Shri/Smt./Kumari",
+      "value": "VASAVA SUHASANIBEN AMARSINGBHAI"
+    },
+    {
+      "key": "In each head of passing at the",
+      "value": "Bachelor of Science in Zoology(Hons), Semester - 3"
+    },
+    {
+      "key": "School",
+      "value": "SCHOOL OF SCIENCE"
+    },
+    {
+      "key": "Major Course",
+      "value": "Zoology"
+    },
+    {
+      "key": "Enrolment No.",
+      "value": "202403020014"
+    },
+    {
+      "key": "Examination held in",
+      "value": "December 2025"
+    },
+    {
+      "key": "Examination Centre",
+      "value": "Rajpipla (01)"
+    },
+    {
+      "key": "Exam",
+      "value": "REGULAR"
+    },
+    {
+      "key": "I Certify that Shri/Smt./Kumari :",
+      "value": "VASAVA SUHASANIBEN AMARSINGBHAI"
+    },
+    {
+      "key": "has appeared at Examination",
+      "value": "Bachelor of Science in Zoology(Hons), Semester-3"
+    },
+    {
+      "key": "held by the",
+      "value": "Birsa Munda Tribal University, Rajpipla."
+    },
+    {
+      "key": "His / Her enrollment No. Month & Year of Examination and Class obtained are as mentioned here below:",
+      "value": ""
+    },
+    {
+      "key": "Date of Issue:",
+      "value": "22/01/2026"
+    },
+    {
+      "key": "Sr. No.",
+      "value": "000902"
+    }
+  ],
+  "tables": [
+    {
+      "table_name": null,
+      "columns": [
+        {
+          "header": "COURSE TYPE, COURSE CODE & NAME",
+          "sub_headers": null
+        },
+        {
+          "header": "Credit",
+          "sub_headers": null
+        },
+        {
+          "header": "Theory",
+          "sub_headers": [
+            "CCE MIN/ MAX",
+            "CCE OBT",
+            "SEE MIN/ MAX",
+            "SEE OBT"
+          ]
+        },
+        {
+          "header": "Practical",
+          "sub_headers": [
+            "CCE MIN/ MAX",
+            "CCE OBT",
+            "SEE MIN/ MAX",
+            "SEE OBT"
+          ]
+        },
+        {
+          "header": "TOTAL",
+          "sub_headers": [
+            "MIN/ MAX",
+            "OBT"
+          ]
+        },
+        {
+          "header": "GRADE",
+          "sub_headers": null
+        }
+      ],
+      "rows": [
+        [
+          "MAJOR-5 : BS03MJZO01 : Animal Diversity - Non Chordates",
+          "4",
+          "13/35",
+          "24",
+          "13/35",
+          "23",
+          "5/15",
+          "8",
+          "5/15",
+          "13",
+          "36/100",
+          "68",
+          "B+"
+        ],
+        [
+          "MAJOR-6 : BS03MJZO02 : Cell Biology & Genetics I",
+          "4",
+          "13/35",
+          "30",
+          "13/35",
+          "25",
+          "5/15",
+          "8",
+          "5/15",
+          "14",
+          "36/100",
+          "77",
+          "A"
+        ],
+        [
+          "MAJOR-7 : BS03MJZO03 : Animal Physiology and Endocrinology",
+          "4",
+          "13/35",
+          "24",
+          "13/35",
+          "25",
+          "5/15",
+          "10",
+          "5/15",
+          "11",
+          "36/100",
+          "70",
+          "B+"
+        ],
+        [
+          "MDC-3 : BS03MDZOO2 : Bio-Physics",
+          "4",
+          "13/35",
+          "16",
+          "13/35",
+          "16",
+          "5/15",
+          "8",
+          "5/15",
+          "6",
+          "36/100",
+          "46",
+          "C"
+        ],
+        [
+          "AEC-3 : BS03AEZOO1 : Translation and Interpretation in Gujarati and English",
+          "2",
+          "9/25",
+          "13",
+          "9/25",
+          "17",
+          "...",
+          "...",
+          "...",
+          "...",
+          "18/50",
+          "30",
+          "B"
+        ],
+        [
+          "SEC-3 : BS03SEZOO3 : Warli Art Painting",
+          "2",
+          "9/25",
+          "23",
+          "9/25",
+          "18",
+          "...",
+          "...",
+          "...",
+          "...",
+          "18/50",
+          "41",
+          "A"
+        ],
+        [
+          "IKS-2 : BS03IKZOO1 : Vedic Mathematics",
+          "2",
+          "9/25",
+          "18",
+          "9/25",
+          "10",
+          "...",
+          "...",
+          "...",
+          "...",
+          "18/50",
+          "28",
+          "B"
+        ],
+        [
+          "TOTAL",
+          "22",
+          "",
+          "148",
+          "",
+          "134",
+          "",
+          "34",
+          "",
+          "44",
+          "",
+          "360/550",
+          ""
+        ]
+      ]
+    },
+    {
+      "table_name": null,
+      "columns": [
+        {
+          "header": "Semester Grade Performance Average",
+          "sub_headers": [
+            "Earned Credit",
+            "Earned Grade Point",
+            "SGPA"
+          ]
+        },
+        {
+          "header": "Cumulative Grade Performance Average",
+          "sub_headers": [
+            "Earned Credit",
+            "Earned Grade Point",
+            "CGPA"
+          ]
+        },
+        {
+          "header": "Result",
+          "sub_headers": null
+        }
+      ],
+      "rows": [
+        [
+          "22",
+          "148.00",
+          "6.73",
+          "66",
+          "408.00",
+          "6.18",
+          "PASS"
+        ]
+      ]
+    },
+    {
+      "table_name": null,
+      "columns": null,
+      "rows": [
+        [
+          "MARKS (in %)",
+          "96.00-100.00",
+          "86.00-95.99",
+          "76.00-85.99",
+          "66.00-75.99",
+          "56.00-65.99",
+          "46.00-55.99",
+          "36.00-45.99",
+          "0.00-35.99",
+          "0.00-0.00"
+        ],
+        [
+          "GRADE LETTER",
+          "O",
+          "A+",
+          "A",
+          "B+",
+          "B",
+          "C",
+          "P",
+          "F",
+          "AB"
+        ],
+        [
+          "GRADE POINT",
+          "10",
+          "9",
+          "8",
+          "7",
+          "6",
+          "5",
+          "4",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "table_name": "PASSING CERTIFICATE",
+      "columns": null,
+      "rows": [
+        [
+          "Enrollment No",
+          "202403020014",
+          "Month & Year of Examination",
+          "DECEMBER-2025",
+          "Class Obtained",
+          "Pass"
+        ]
+      ]
+    }
+  ]
+}

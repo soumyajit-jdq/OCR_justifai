@@ -1,0 +1,193 @@
+{
+  "issuing_authority": "SILVER OAK UNIVERSITY",
+  "document_title": "SEMESTER GRADE REPORT",
+  "main_details": [
+    {
+      "key": "Sr. No. :",
+      "value": "232701814"
+    },
+    {
+      "key": "Institute Name",
+      "value": "ADITYA SILVER OAK INSTITUTE OF TECHNOLOGY"
+    },
+    {
+      "key": "Student's Name",
+      "value": "SOJITRA YASHKUMAR MANSUKHBHAI"
+    },
+    {
+      "key": "Seat No.",
+      "value": "S230205025"
+    },
+    {
+      "key": "Enrollment No. (Old)",
+      "value": " - "
+    },
+    {
+      "key": "Programme",
+      "value": "BACHELOR OF TECHNOLOGY"
+    },
+    {
+      "key": "Branch",
+      "value": "INFORMATION TECHNOLOGY"
+    },
+    {
+      "key": "Academic Year",
+      "value": "2022-2023"
+    },
+    {
+      "key": "Month & Year of Exam",
+      "value": "MAY-2023"
+    },
+    {
+      "key": "Enrollment No. (New)",
+      "value": "2202031000143"
+    },
+    {
+      "key": "Semester",
+      "value": "2"
+    },
+    {
+      "key": "Exam Type",
+      "value": "REGULAR"
+    },
+    {
+      "key": "Result Declared on :",
+      "value": "14th June, 2023"
+    }
+  ],
+  "tables": [
+    {
+      "table_name": null,
+      "columns": [
+        {
+          "header": "SUBJECT CODE",
+          "sub_headers": null
+        },
+        {
+          "header": "SUBJECT NAME",
+          "sub_headers": null
+        },
+        {
+          "header": "CREDIT",
+          "sub_headers": null
+        },
+        {
+          "header": "THEORY",
+          "sub_headers": [
+            "CIE",
+            "ESE",
+            "TOTAL GRADE"
+          ]
+        },
+        {
+          "header": "PRACTICAL",
+          "sub_headers": [
+            "CIE",
+            "ESE",
+            "TOTAL GRADE"
+          ]
+        },
+        {
+          "header": "SUBJECT GRADE",
+          "sub_headers": null
+        }
+      ],
+      "rows": [
+        [
+          "1010033197",
+          "ENVIRONMENTAL SCIENCE",
+          "0",
+          "O",
+          "A",
+          "A+",
+          "-",
+          "-",
+          "-",
+          "A+"
+        ],
+        [
+          "1010043192",
+          "INTERNSHIP-II",
+          "9",
+          "-",
+          "-",
+          "-",
+          "A+",
+          "O",
+          "O",
+          "O"
+        ],
+        [
+          "1010123110",
+          "BASICS OF ENGINEERING DRAWING",
+          "1",
+          "-",
+          "-",
+          "-",
+          "O",
+          "O",
+          "O",
+          "O"
+        ],
+        [
+          "1010253105",
+          "BASICS OF ENGINEERING PHYSICS",
+          "3",
+          "A+",
+          "B",
+          "A",
+          "O",
+          "O",
+          "O",
+          "A+"
+        ],
+        [
+          "1010273106",
+          "BASICS OF ENGINEERING MATHEMATICS - II",
+          "5",
+          "O",
+          "A",
+          "A+",
+          "-",
+          "-",
+          "-",
+          "A+"
+        ]
+      ]
+    },
+    {
+      "table_name": null,
+      "columns": null,
+      "rows": [
+        [
+          "Credits offered",
+          "18",
+          "Credits Earned",
+          "18",
+          "Current Backlog",
+          "0",
+          "SPI",
+          "9.56",
+          "CGPA",
+          "-",
+          "Result",
+          "PASS"
+        ],
+        [
+          "Total Credits offered",
+          "35",
+          "Total Credits Earned",
+          "35",
+          "Total Backlog",
+          "0",
+          "CPI",
+          "9.37",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ]
+}

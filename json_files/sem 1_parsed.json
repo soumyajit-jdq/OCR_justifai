@@ -1,0 +1,217 @@
+{
+  "issuing_authority": "SILVER OAK UNIVERSITY",
+  "document_title": "SEMESTER GRADE REPORT",
+  "main_details": [
+    {
+      "key": "Sr. No. :",
+      "value": "221701020"
+    },
+    {
+      "key": "Institute Name",
+      "value": "ADITYA SILVER OAK INSTITUTE OF TECHNOLOGY"
+    },
+    {
+      "key": "Academic Year",
+      "value": "2022-2023"
+    },
+    {
+      "key": "Student's Name",
+      "value": "SOJITRA YASHKUMAR MANSUKHBHAI"
+    },
+    {
+      "key": "Month & Year of Exam",
+      "value": "JANUARY-2023"
+    },
+    {
+      "key": "Seat No.",
+      "value": "2202031000143"
+    },
+    {
+      "key": "Enrollment No. (Old)",
+      "value": " - "
+    },
+    {
+      "key": "Enrollment No. (New)",
+      "value": "2202031000143"
+    },
+    {
+      "key": "Programme",
+      "value": "BACHELOR OF TECHNOLOGY"
+    },
+    {
+      "key": "Semester",
+      "value": "1"
+    },
+    {
+      "key": "Branch",
+      "value": "INFORMATION TECHNOLOGY"
+    },
+    {
+      "key": "Exam Type",
+      "value": "REGULAR"
+    },
+    {
+      "key": "Result Declared on :",
+      "value": "27th January, 2023"
+    }
+  ],
+  "tables": [
+    {
+      "table_name": null,
+      "columns": [
+        {
+          "header": "SUBJECT CODE",
+          "sub_headers": null
+        },
+        {
+          "header": "SUBJECT NAME",
+          "sub_headers": null
+        },
+        {
+          "header": "CREDIT",
+          "sub_headers": null
+        },
+        {
+          "header": "THEORY",
+          "sub_headers": [
+            "CIE",
+            "ESE",
+            "TOTAL GRADE"
+          ]
+        },
+        {
+          "header": "PRACTICAL",
+          "sub_headers": [
+            "CIE",
+            "ESE",
+            "TOTAL GRADE"
+          ]
+        },
+        {
+          "header": "SUBJECT GRADE",
+          "sub_headers": null
+        }
+      ],
+      "rows": [
+        [
+          "1010003196",
+          "INDUCTION PROGRAMME",
+          "0",
+          "-",
+          "-",
+          "-",
+          "O",
+          "-",
+          "O",
+          "O"
+        ],
+        [
+          "1010003197",
+          "INDIAN CONSTITUTION",
+          "0",
+          "A",
+          "A+",
+          "A",
+          "-",
+          "-",
+          "-",
+          "A"
+        ],
+        [
+          "1010043113",
+          "FUNDAMENTALS OF PROGRAMMING-I",
+          "4",
+          "A+",
+          "A+",
+          "A+",
+          "A+",
+          "O",
+          "A+",
+          "A+"
+        ],
+        [
+          "1010083113",
+          "FUNDAMENTALS OF ENGINEERING",
+          "4",
+          "A+",
+          "A",
+          "A",
+          "O",
+          "A",
+          "A+",
+          "A"
+        ],
+        [
+          "1010123115",
+          "WORKSHOP TECHNOLOGY",
+          "2",
+          "-",
+          "-",
+          "-",
+          "O",
+          "O",
+          "O",
+          "O"
+        ],
+        [
+          "1010153183",
+          "COMMUNICATIVE ENGLISH",
+          "2",
+          "A+",
+          "A",
+          "A",
+          "O",
+          "A+",
+          "O",
+          "A+"
+        ],
+        [
+          "1010273103",
+          "APPLIED MATHEMATICS - I",
+          "5",
+          "O",
+          "O",
+          "O",
+          "-",
+          "-",
+          "-",
+          "O"
+        ]
+      ]
+    },
+    {
+      "table_name": null,
+      "columns": null,
+      "rows": [
+        [
+          "Credits offered",
+          "17",
+          "Credits Earned",
+          "17",
+          "Current Backlog",
+          "0",
+          "SPI",
+          "9.18",
+          "CGPA",
+          "-",
+          "Result",
+          "PASS"
+        ],
+        [
+          "Total Credits offered",
+          "17",
+          "Total Credits Earned",
+          "17",
+          "Total Backlog",
+          "0",
+          "CPI",
+          "9.18",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ]
+}

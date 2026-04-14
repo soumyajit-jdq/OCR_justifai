@@ -1,0 +1,280 @@
+{
+  "issuing_authority": "BIRSA MUNDA TRIBAL UNIVERSITY",
+  "document_title": "Statement of Marks Bachelor of Commerce Semester-V",
+  "main_details": [
+    {
+      "key": "Name : ",
+      "value": "BHIL VISHALKUMAR NARESHBHAI"
+    },
+    {
+      "key": "Enrollment No. : ",
+      "value": "202302020030038"
+    },
+    {
+      "key": "College Name & Code : ",
+      "value": "02 - School of Commerce"
+    },
+    {
+      "key": "His/Her Principal Subject is : ",
+      "value": "Accountancy"
+    },
+    {
+      "key": "Examination : ",
+      "value": "November-2025"
+    },
+    {
+      "key": "Seat No. : ",
+      "value": "23521335"
+    },
+    {
+      "key": "Exam Centre : ",
+      "value": "Rajpipla"
+    },
+    {
+      "key": "Exam : ",
+      "value": "Regular"
+    },
+    {
+      "key": "Issue Date: ",
+      "value": "05/01/2026"
+    },
+    {
+      "key": "Serial Number : ",
+      "value": "2025020637"
+    }
+  ],
+  "tables": [
+    {
+      "table_name": null,
+      "columns": [
+        {
+          "header": "Subject Code",
+          "sub_headers": null
+        },
+        {
+          "header": "Subject Name",
+          "sub_headers": null
+        },
+        {
+          "header": "CR",
+          "sub_headers": null
+        },
+        {
+          "header": "Passing Marks",
+          "sub_headers": [
+            "Internal",
+            "External",
+            "Total"
+          ]
+        },
+        {
+          "header": "Mark Obtained",
+          "sub_headers": [
+            "Int.",
+            "Ext.",
+            "Total"
+          ]
+        },
+        {
+          "header": "GR",
+          "sub_headers": null
+        },
+        {
+          "header": "GP",
+          "sub_headers": null
+        },
+        {
+          "header": "EGP",
+          "sub_headers": null
+        },
+        {
+          "header": "Remarks",
+          "sub_headers": null
+        }
+      ],
+      "rows": [
+        [
+          "BC501",
+          "Leadership Development",
+          "2",
+          "12/30",
+          "28/70",
+          "40/100",
+          "22",
+          "45",
+          "67",
+          "A",
+          "6.7",
+          "13.4",
+          "E,C"
+        ],
+        [
+          "BC502",
+          "Business Communication-V",
+          "2",
+          "12/30",
+          "28/70",
+          "40/100",
+          "18",
+          "31",
+          "49",
+          "B",
+          "4.9",
+          "9.8",
+          "EC"
+        ],
+        [
+          "BC503",
+          "Business Administration-V",
+          "3",
+          "12/30",
+          "28/70",
+          "40/100",
+          "24",
+          "40",
+          "64",
+          "A",
+          "6.4",
+          "19.2",
+          "E,C"
+        ],
+        [
+          "BC504",
+          "Indian Economics-I",
+          "3",
+          "12/30",
+          "28/70",
+          "40/100",
+          "24",
+          "40",
+          "64",
+          "A",
+          "6.4",
+          "19.2",
+          "EC"
+        ],
+        [
+          "BC505",
+          "Accountancy-V",
+          "3",
+          "12/30",
+          "28/70",
+          "40/100",
+          "20",
+          "30",
+          "50",
+          "B",
+          "5.0",
+          "15.0",
+          "EC"
+        ],
+        [
+          "BC506",
+          "Business Statistics-I",
+          "3",
+          "12/30",
+          "28/70",
+          "40/100",
+          "20",
+          "32",
+          "52",
+          "B",
+          "5.2",
+          "15.6",
+          "EC"
+        ],
+        [
+          "BC507",
+          "Finance & Account-VII (Cost Accounting-I)",
+          "3",
+          "12/30",
+          "28/70",
+          "40/100",
+          "25",
+          "56",
+          "81",
+          "O",
+          "8.1",
+          "24.3",
+          "EC"
+        ],
+        [
+          "BC508",
+          "Finance & Account-VIII (Management Accounting-I)",
+          "3",
+          "12/30",
+          "28/70",
+          "40/100",
+          "23",
+          "36",
+          "59",
+          "B+",
+          "5.9",
+          "17.7",
+          "EC"
+        ],
+        [
+          "",
+          "Total",
+          "22",
+          "96/240",
+          "224/560",
+          "320/800",
+          "176",
+          "310",
+          "486",
+          "-",
+          "-",
+          "134.2",
+          "-"
+        ]
+      ]
+    },
+    {
+      "table_name": null,
+      "columns": null,
+      "rows": [
+        [
+          "Semester-I",
+          "SGPA = 5.44",
+          "Grade = B",
+          "Percentage = 54.00",
+          "Class = Second Class",
+          "Status = Complete"
+        ],
+        [
+          "Semester-II",
+          "SGPA = 6.99",
+          "Grade = A",
+          "Percentage = 69.38",
+          "Class = First Class",
+          "Status = Complete"
+        ],
+        [
+          "Semester-III",
+          "SGPA = 6.53",
+          "Grade = A",
+          "Percentage = 64.38",
+          "Class = First Class",
+          "Status = Complete"
+        ],
+        [
+          "Semester-IV",
+          "SGPA = 6.67",
+          "Grade = A",
+          "Percentage = 66.13",
+          "Class = FIRST CLASS",
+          "Status = Complete"
+        ],
+        [
+          "Semester-V",
+          "SGPA = 6.10",
+          "Grade = A",
+          "Percentage = 60.75",
+          "Class = FIRST CLASS",
+          "Status = Complete"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "issuing_authority": "GLOBAL TECH UNIVERSITY",
+  "document_title": "Bachelor of Technology",
+  "main_details": [
+    {
+      "key": "\u0ab8\u0ac7\u0aa8\u0ac7\u0a9f\u0aa8\u0ac0 \u0aad\u0ab2\u0abe\u0aae\u0aa3 \u0aaa\u0ab0, \u0aaf\u0ac1\u0aa8\u0abf\u0ab5\u0ab0\u0acd\u0ab8\u0abf\u0a9f\u0ac0 \u0a86 \u0aa6\u0acd\u0ab5\u0abe\u0ab0\u0abe \u0aaa\u0acd\u0ab0\u0aa6\u0abe\u0aa8 \u0a95\u0ab0\u0ac7 \u0a9b\u0ac7 \u0a95\u0ac7",
+      "value": "\u091c\u0949\u0928 \u0921\u094b"
+    },
+    {
+      "key": "Enrollment No:",
+      "value": "EN123456"
+    },
+    {
+      "key": "the degree of",
+      "value": "Bachelor of Technology"
+    },
+    {
+      "key": "in",
+      "value": "Computer Science"
+    },
+    {
+      "key": "who has successfully completed the requirements prescribed for the award of the degree in",
+      "value": "15th July 2024"
+    },
+    {
+      "key": "with",
+      "value": "First Class with Distinction"
+    }
+  ],
+  "tables": []
+}

@@ -1,0 +1,280 @@
+{
+  "issuing_authority": "BIRSA MUNDA TRIBAL UNIVERSITY",
+  "document_title": "Statement of Marks Bachelor of Arts Semester-V",
+  "main_details": [
+    {
+      "key": "Name :",
+      "value": "GAMIT ZINALKUMARI DINESHBHAI"
+    },
+    {
+      "key": "Enrollment No. :",
+      "value": "202301010010022"
+    },
+    {
+      "key": "College Name & Code :",
+      "value": "01 - School of Arts"
+    },
+    {
+      "key": "His/Her Principal Subject is :",
+      "value": "English"
+    },
+    {
+      "key": "Examination :",
+      "value": "November-2025"
+    },
+    {
+      "key": "Seat No. :",
+      "value": "23511116"
+    },
+    {
+      "key": "Exam Centre :",
+      "value": "Rajpipla"
+    },
+    {
+      "key": "Exam :",
+      "value": "Regular"
+    },
+    {
+      "key": "Issue Date:",
+      "value": "05/01/2026"
+    },
+    {
+      "key": "Serial Number :",
+      "value": "2025010652"
+    }
+  ],
+  "tables": [
+    {
+      "table_name": null,
+      "columns": [
+        {
+          "header": "Subject Code",
+          "sub_headers": null
+        },
+        {
+          "header": "Subject Name",
+          "sub_headers": null
+        },
+        {
+          "header": "CR",
+          "sub_headers": null
+        },
+        {
+          "header": "Passing Marks",
+          "sub_headers": [
+            "Internal",
+            "External",
+            "Total"
+          ]
+        },
+        {
+          "header": "Mark Obtained",
+          "sub_headers": [
+            "Int.",
+            "Ext.",
+            "Total"
+          ]
+        },
+        {
+          "header": "GR",
+          "sub_headers": null
+        },
+        {
+          "header": "GP",
+          "sub_headers": null
+        },
+        {
+          "header": "EGP",
+          "sub_headers": null
+        },
+        {
+          "header": "Remarks",
+          "sub_headers": null
+        }
+      ],
+      "rows": [
+        [
+          "AFC501ENG",
+          "Compulsory English",
+          "3",
+          "12/30",
+          "28/70",
+          "40/100",
+          "22",
+          "32",
+          "54",
+          "B",
+          "5.4",
+          "16.2",
+          "E,C"
+        ],
+        [
+          "ACC501ENG",
+          "English Paper-11",
+          "3",
+          "12/30",
+          "28/70",
+          "40/100",
+          "21",
+          "41",
+          "62",
+          "A",
+          "6.2",
+          "18.6",
+          "E,C"
+        ],
+        [
+          "ACC502ENG",
+          "English paper-12",
+          "3",
+          "12/30",
+          "28/70",
+          "40/100",
+          "24",
+          "51",
+          "75",
+          "O",
+          "7.5",
+          "22.5",
+          "E,C"
+        ],
+        [
+          "ACC503ENG",
+          "English Paper-13",
+          "3",
+          "12/30",
+          "28/70",
+          "40/100",
+          "23",
+          "41",
+          "64",
+          "A",
+          "6.4",
+          "19.2",
+          "E,C"
+        ],
+        [
+          "ACC504ENG",
+          "English Paper-14",
+          "3",
+          "12/30",
+          "28/70",
+          "40/100",
+          "21",
+          "37",
+          "58",
+          "B+",
+          "5.8",
+          "17.4",
+          "E,C"
+        ],
+        [
+          "ADS501ENG-A",
+          "English -I",
+          "3",
+          "12/30",
+          "28/70",
+          "40/100",
+          "24",
+          "36",
+          "60",
+          "A",
+          "6.0",
+          "18.0",
+          "E,C"
+        ],
+        [
+          "ADS502ENG-B",
+          "English -II",
+          "3",
+          "12/30",
+          "28/70",
+          "40/100",
+          "24",
+          "37",
+          "61",
+          "A",
+          "6.1",
+          "18.3",
+          "E,C"
+        ],
+        [
+          "SEC501PRD",
+          "Personality Development",
+          "2",
+          "-",
+          "40/100",
+          "40/100",
+          "-",
+          "57",
+          "57",
+          "B+",
+          "5.7",
+          "11.4",
+          "E,C"
+        ],
+        [
+          "",
+          "Total",
+          "23",
+          "84/210",
+          "236/590",
+          "320/800",
+          "159",
+          "332",
+          "491",
+          "-",
+          "-",
+          "141.6",
+          "-"
+        ]
+      ]
+    },
+    {
+      "table_name": null,
+      "columns": null,
+      "rows": [
+        [
+          "Semester-I",
+          "SGPA = 5.25",
+          "Grade = B",
+          "Percentage = 52.43",
+          "Class = Second Class",
+          "Status = Complete"
+        ],
+        [
+          "Semester-II",
+          "SGPA = 6.84",
+          "Grade = A",
+          "Percentage = 68.57",
+          "Class = First Class",
+          "Status = Complete"
+        ],
+        [
+          "Semester-III",
+          "SGPA = 6.21",
+          "Grade = A",
+          "Percentage = 62.57",
+          "Class = First Class",
+          "Status = Complete"
+        ],
+        [
+          "Semester-IV",
+          "SGPA = 6.52",
+          "Grade = A",
+          "Percentage = 65.86",
+          "Class = First Class",
+          "Status = Complete"
+        ],
+        [
+          "Semester-V",
+          "SGPA = 6.16",
+          "Grade = A",
+          "Percentage = 61.38",
+          "Class = FIRST CLASS",
+          "Status = Complete"
+        ]
+      ]
+    }
+  ]
+}
