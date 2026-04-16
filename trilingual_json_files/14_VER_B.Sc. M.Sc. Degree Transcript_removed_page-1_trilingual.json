@@ -1,0 +1,167 @@
+{
+  "issuing_authority": "Junagadh Agricultural University Junagadh",
+  "document_title": "Transcript of Academic Record Faculty of Post Graduate Studies",
+  "main_details": [
+    {
+      "key": "Full Name of the Student :",
+      "value": "SURBHI KANSAGARA"
+    },
+    {
+      "key": "Registration No. :",
+      "value": "2010116120"
+    },
+    {
+      "key": "College :",
+      "value": "COLLEGE OF AGRICULTURE, JUNAGADH"
+    },
+    {
+      "key": "Year of Admission :",
+      "value": "2016-2017"
+    },
+    {
+      "key": "Year of Completion :",
+      "value": "2017-2018"
+    },
+    {
+      "key": "Degree :",
+      "value": "MASTER OF SCIENCE (AGRICULTURE)"
+    },
+    {
+      "key": "Major Field of Study :",
+      "value": "ENTOMOLOGY"
+    },
+    {
+      "key": "Minor Field of Study :",
+      "value": "PLANT PATHOLOGY"
+    },
+    {
+      "key": "1, Qualifying Examination Passed on :",
+      "value": "09.04.2018"
+    },
+    {
+      "key": "2, Thesis Examination Passed on :",
+      "value": "13.06.2018"
+    },
+    {
+      "key": "3, Thesis Submitted on :",
+      "value": "15.06.2018 (After The Thesis Viva-Voce)"
+    },
+    {
+      "key": "4, Title of Thesis :",
+      "value": "POPULATION DYNAMICS, VARIETAL SCREENING AND MANAGEMENT OF THRIPS (THRIPIDAE : THYSANOPTERA) INFESTING GREEN GRAM"
+    }
+  ],
+  "tables": [
+    {
+      "table_name": null,
+      "columns": [
+        {
+          "header": "Course No.",
+          "sub_headers": null
+        },
+        {
+          "header": "Title of Course",
+          "sub_headers": null
+        },
+        {
+          "header": "Credit Hours",
+          "sub_headers": null
+        },
+        {
+          "header": "Grade Point",
+          "sub_headers": null
+        },
+        {
+          "header": "Credit Points",
+          "sub_headers": null
+        }
+      ],
+      "rows": [
+        [
+          "Major Field",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ENT.501",
+          "Insect Morphology",
+          "2",
+          "8.0",
+          "16.0"
+        ],
+        [
+          "ENT.502",
+          "Insect Anatomy, Physiology and Nutrition",
+          "3",
+          "8.5",
+          "25.5"
+        ],
+        [
+          "ENT.504",
+          "Classification of Insects",
+          "3",
+          "7.6",
+          "22.8"
+        ],
+        [
+          "ENT.505",
+          "Insect Ecology",
+          "2",
+          "8.0",
+          "16.0"
+        ],
+        [
+          "ENT.507",
+          "Biological Control of Crop Pests and Weeds",
+          "2",
+          "8.3",
+          "16.6"
+        ],
+        [
+          "ENT.508",
+          "Toxicology of Insecticides",
+          "3",
+          "7.7",
+          "23.1"
+        ],
+        [
+          "ENT.509",
+          "Plant Resistance To Insects",
+          "2",
+          "8.6",
+          "17.2"
+        ],
+        [
+          "ENT.511",
+          "Pests of Field Crops",
+          "2",
+          "7.9",
+          "15.8"
+        ],
+        [
+          "ENT.513",
+          "Storage Entomology",
+          "2",
+          "8.4",
+          "16.8"
+        ],
+        [
+          "ENT.591",
+          "Master's Seminar",
+          "1",
+          "8.7",
+          "8.7"
+        ],
+        [
+          "ENT.599",
+          "Thesis Work @",
+          "20",
+          "S",
+          "-"
+        ]
+      ]
+    }
+  ]
+}

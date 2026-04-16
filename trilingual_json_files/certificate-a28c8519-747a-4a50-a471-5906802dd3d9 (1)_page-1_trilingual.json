@@ -1,0 +1,364 @@
+{
+  "issuing_authority": "JUNAGADH AGRICULTURAL UNIVERSITY JUNAGADH",
+  "document_title": "STUDENT'S EVALUATION REPORT",
+  "main_details": [
+    {
+      "key": "academicyear",
+      "value": "2016-2017"
+    },
+    {
+      "key": "date",
+      "value": "15/03/2017"
+    },
+    {
+      "key": "degreecourse",
+      "value": "m.b.a. in ab"
+    },
+    {
+      "key": "examinationheldin",
+      "value": "dec.2016-feb.2017"
+    },
+    {
+      "key": "faculty",
+      "value": "post-graduate studies"
+    },
+    {
+      "key": "fullnameofstudent",
+      "value": "patel riteshkumar girishbhai"
+    },
+    {
+      "key": "gpa",
+      "value": "6.76"
+    },
+    {
+      "key": "majorsubject",
+      "value": "agri-business management"
+    },
+    {
+      "key": "mediumofinstruction",
+      "value": "english"
+    },
+    {
+      "key": "minorsubject",
+      "value": "agri-business management"
+    },
+    {
+      "key": "nameofcollege",
+      "value": "p.g. institute of agri - business management, jau, junagadh"
+    },
+    {
+      "key": "registrar",
+      "value": ""
+    },
+    {
+      "key": "registrationno",
+      "value": "2072116024"
+    },
+    {
+      "key": "remarks",
+      "value": ""
+    },
+    {
+      "key": "semester",
+      "value": "first"
+    }
+  ],
+  "tables": [
+    {
+      "table_name": null,
+      "columns": [
+        {
+          "header": "sn",
+          "sub_headers": null
+        },
+        {
+          "header": "coursecategory",
+          "sub_headers": null
+        },
+        {
+          "header": "coursenumber",
+          "sub_headers": null
+        },
+        {
+          "header": "titleofcourses",
+          "sub_headers": null
+        },
+        {
+          "header": "credithours",
+          "sub_headers": null
+        },
+        {
+          "header": "gradepoints",
+          "sub_headers": null
+        },
+        {
+          "header": "creditpoints",
+          "sub_headers": null
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "",
+          "total:",
+          "182",
+          "",
+          "121.7"
+        ],
+        [
+          "1",
+          "major",
+          "abm 501",
+          "principles of management and organizational behaviour",
+          "3",
+          "6.9",
+          "20.7"
+        ],
+        [
+          "10",
+          "n-c compulsory",
+          "pgs 502",
+          "technical writing & commu. skills @",
+          "1",
+          "s",
+          ""
+        ],
+        [
+          "2",
+          "major",
+          "abm 503",
+          "managerial economics",
+          "3",
+          "6.2",
+          "18.6"
+        ],
+        [
+          "3",
+          "major",
+          "abm 504",
+          "managerial accounting and control",
+          "2",
+          "6.8",
+          "13.6"
+        ],
+        [
+          "4",
+          "major",
+          "abm 505",
+          "communication for management & business",
+          "2",
+          "7.3",
+          "14.6"
+        ],
+        [
+          "5",
+          "major",
+          "abm 508",
+          "human resource management",
+          "2",
+          "7.1",
+          "14.2"
+        ],
+        [
+          "6",
+          "major",
+          "abm 510",
+          "production and operations management",
+          "2",
+          "7.5",
+          "15"
+        ],
+        [
+          "7",
+          "supporting",
+          "abm 513",
+          "computers for managers",
+          "2",
+          "6.4",
+          "12.8"
+        ],
+        [
+          "8",
+          "supporting",
+          "abm 515",
+          "operations research",
+          "2",
+          "6.1",
+          "12.2"
+        ],
+        [
+          "9",
+          "n-c compulsory",
+          "pgs 501",
+          "library & information services @",
+          "1",
+          "s",
+          ""
+        ]
+      ]
+    },
+    {
+      "table_name": "summaryofstudentsperformance",
+      "columns": [
+        {
+          "header": "year",
+          "sub_headers": null
+        },
+        {
+          "header": "semester",
+          "sub_headers": null
+        },
+        {
+          "header": "credithours",
+          "sub_headers": null
+        },
+        {
+          "header": "creditpoints",
+          "sub_headers": null
+        },
+        {
+          "header": "gpa",
+          "sub_headers": null
+        },
+        {
+          "header": "cgpaorogpa",
+          "sub_headers": null
+        }
+      ],
+      "rows": [
+        [
+          "",
+          "total :",
+          "182",
+          "121.7",
+          "",
+          "6.76"
+        ],
+        [
+          "i",
+          "first",
+          "182",
+          "121.7",
+          "6.76",
+          "6.76"
+        ],
+        [
+          "ii",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "iii",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "iv",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "v",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "table_name": "note",
+      "columns": null,
+      "rows": [
+        [
+          "",
+          "non-credit course",
+          "",
+          ""
+        ],
+        [
+          "ab",
+          "absent",
+          "",
+          "repeated"
+        ],
+        [
+          "i",
+          "incomplete",
+          "us",
+          "unsatisfactory"
+        ],
+        [
+          "w",
+          "withdrawn",
+          "s",
+          "satisfactory"
+        ]
+      ]
+    },
+    {
+      "table_name": null,
+      "columns": [
+        {
+          "header": "ogpa",
+          "sub_headers": null
+        },
+        {
+          "header": "",
+          "sub_headers": null
+        },
+        {
+          "header": "",
+          "sub_headers": null
+        },
+        {
+          "header": "class",
+          "sub_headers": null
+        }
+      ],
+      "rows": [
+        [
+          "6",
+          "to",
+          "6.49",
+          "academic probation"
+        ],
+        [
+          "6.5",
+          "to",
+          "6.99",
+          "second class"
+        ],
+        [
+          "7",
+          "to",
+          "7.99",
+          "first class"
+        ],
+        [
+          "8",
+          "and",
+          "above",
+          "first class with distinction"
+        ],
+        [
+          "less",
+          "than",
+          "6",
+          "fail"
+        ]
+      ]
+    }
+  ]
+}

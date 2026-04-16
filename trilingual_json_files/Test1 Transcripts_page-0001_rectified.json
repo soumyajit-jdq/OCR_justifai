@@ -1,0 +1,347 @@
+{
+  "document_title": "TRANSCRIPT OF ACADEMIC RECORD",
+  "issuing_authority": "JUNAGADH AGRICULTURAL UNIVERSITY JUNAGADH",
+  "main_details": [
+    {
+      "key": "admissionyear",
+      "value": "2012-2013"
+    },
+    {
+      "key": "college",
+      "value": "college of agriculture, junagadh"
+    },
+    {
+      "key": "completionyear",
+      "value": "2015-2016"
+    },
+    {
+      "key": "degree",
+      "value": "b. sc. (hons.)agri"
+    },
+    {
+      "key": "faculty",
+      "value": "agriculture"
+    },
+    {
+      "key": "fullnameofthestudent",
+      "value": "surbhi kansagara"
+    },
+    {
+      "key": "mediumofinstruction",
+      "value": "english"
+    },
+    {
+      "key": "registrationno",
+      "value": "j1-00786-2012"
+    },
+    {
+      "key": "sn",
+      "value": "c-00700"
+    }
+  ],
+  "tables": [
+    {
+      "columns": [
+        {
+          "header": "coursenumber"
+        },
+        {
+          "header": "credithours"
+        },
+        {
+          "header": "creditpoints"
+        },
+        {
+          "header": "gradepoint"
+        },
+        {
+          "header": "titleofthecourse"
+        }
+      ],
+      "rows": [
+        [
+          "1",
+          "7.1",
+          "7.1",
+          "agron.4.6",
+          "practical crop production-ii (rabi crops)"
+        ],
+        [
+          "1",
+          "7.8",
+          "7.8",
+          "agron.3.4",
+          "practical crop production-i (kharif crops)"
+        ],
+        [
+          "1",
+          "nss/ncc/physical education (non-credit course)",
+          "p.e.1.1",
+          "s"
+        ],
+        [
+          "1",
+          "nss/ncc/physical education (non-credit course)",
+          "p.e.2.2",
+          "s"
+        ],
+        [
+          "1",
+          "nss/ncc/physical education (non-credit course)",
+          "p.e.3.3",
+          "s"
+        ],
+        [
+          "1",
+          "nss/ncc/physical education (non-credit course)",
+          "p.e.4.4",
+          "s"
+        ],
+        [
+          "13.6",
+          "2",
+          "6.8",
+          "ag.econ.2.1",
+          "principles of agricultural economics"
+        ],
+        [
+          "13.8",
+          "2",
+          "6.9",
+          "livestock production and management",
+          "lpm.4.1"
+        ],
+        [
+          "13.8",
+          "2",
+          "6.9",
+          "pl.path.3.2",
+          "principles of plant pathology"
+        ],
+        [
+          "14",
+          "2",
+          "7",
+          "ag.engg.3.2",
+          "farm power and machinery"
+        ],
+        [
+          "14.4",
+          "2",
+          "7.2",
+          "ag.extn.4.2",
+          "fundamental of rural sociology & educational psychology"
+        ],
+        [
+          "15",
+          "2",
+          "7.5",
+          "comprehension & communication skills in english",
+          "eng.1.1"
+        ],
+        [
+          "15.2",
+          "2",
+          "7.6",
+          "ag.stat.1.1",
+          "introduction to computer application"
+        ],
+        [
+          "15.2",
+          "2",
+          "7.6",
+          "agron.3.5",
+          "weed management"
+        ],
+        [
+          "15.2",
+          "2",
+          "7.6",
+          "crop physiology -ii",
+          "pl.phy.4.2"
+        ],
+        [
+          "15.4",
+          "2",
+          "7.7",
+          "ag.econ.3.2",
+          "agricultural marketing, trade and prices"
+        ],
+        [
+          "15.4",
+          "2",
+          "7.7",
+          "ag.econ.4.3",
+          "agricultural finance and co-operation"
+        ],
+        [
+          "15.6",
+          "2",
+          "7.8",
+          "biomathematics",
+          "maths.1.1"
+        ],
+        [
+          "15.6",
+          "2",
+          "7.8",
+          "introductory plant pathology",
+          "pl.path.1.1"
+        ],
+        [
+          "16.4",
+          "2",
+          "8.2",
+          "economic botany",
+          "pbg.1.1"
+        ],
+        [
+          "17.2",
+          "2",
+          "8.6",
+          "ag.extn.3.1",
+          "dimensions of agricultural extension"
+        ],
+        [
+          "18.3",
+          "3",
+          "6.1",
+          "ag.stat.2.2",
+          "agricultural statistics"
+        ],
+        [
+          "2",
+          "eng.4.2",
+          "english for special purpose (non-credit course)",
+          "s"
+        ],
+        [
+          "20.7",
+          "3",
+          "6.9",
+          "agron.1.1",
+          "introductory agriculture & principles of agronomy"
+        ],
+        [
+          "21",
+          "3",
+          "7",
+          "ag.engg.2.1",
+          "fundamentals of soil water conservation & engineering"
+        ],
+        [
+          "21.3",
+          "3",
+          "7.1",
+          "ag.chem.2.2",
+          "soil chemistry, soil fertility & nutrient management"
+        ],
+        [
+          "21.3",
+          "3",
+          "7.1",
+          "pbg.3.3",
+          "principles of plant breeding"
+        ],
+        [
+          "21.9",
+          "3",
+          "7.3",
+          "crop physiology -i",
+          "pl.phy.3.1"
+        ],
+        [
+          "22.2",
+          "3",
+          "7.4",
+          "agron.1.2",
+          "field crops-i (kharif)"
+        ],
+        [
+          "22.2",
+          "3",
+          "7.4",
+          "hort.4.3",
+          "prod. tech. of spices, aromatics, medicinal & plantation"
+        ],
+        [
+          "22.5",
+          "3",
+          "7.5",
+          "ag.met.2.1",
+          "agricultural meteorology"
+        ],
+        [
+          "23.1",
+          "3",
+          "7.7",
+          "ag.micro.2.1",
+          "agricultural microbiology"
+        ],
+        [
+          "23.1",
+          "3",
+          "7.7",
+          "hort.3.2",
+          "production technology of vegetables & flowers"
+        ],
+        [
+          "23.4",
+          "3",
+          "7.8",
+          "agron.2.3",
+          "field crops-ii (rabi)"
+        ],
+        [
+          "23.7",
+          "3",
+          "7.9",
+          "hort.1.1",
+          "production technology of fruit crops"
+        ],
+        [
+          "24.3",
+          "3",
+          "8.1",
+          "ag.ento.3.1",
+          "insect morphology and systamatics"
+        ],
+        [
+          "24.3",
+          "3",
+          "8.1",
+          "ag.ento.4.2",
+          "insect ecology & ipm including beneficial insects"
+        ],
+        [
+          "24.3",
+          "3",
+          "8.1",
+          "breeding of field/ horticultural crops",
+          "pbg.4.4"
+        ],
+        [
+          "24.3",
+          "3",
+          "8.1",
+          "pbg.2.2",
+          "principles of genetics"
+        ],
+        [
+          "24.6",
+          "3",
+          "8.2",
+          "ag.chem.1.1",
+          "introduction to soil science"
+        ],
+        [
+          "26.7",
+          "3",
+          "8.9",
+          "biochem.4.1",
+          "biochemistry"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "document_title": "STUDENT'S EVALUATION REPORT",
+  "issuing_authority": "JUNAGADH AGRICULTURAL UNIVERSITY JUNAGADH",
+  "main_details": [
+    {
+      "key": "academicyear",
+      "value": "2016-2017"
+    },
+    {
+      "key": "date",
+      "value": "15/03/2017"
+    },
+    {
+      "key": "degreecourse",
+      "value": "m.b.a. in ab"
+    },
+    {
+      "key": "examinationheldin",
+      "value": "dec.2016-feb.2017"
+    },
+    {
+      "key": "faculty",
+      "value": "post-graduate studies"
+    },
+    {
+      "key": "fullnameofstudent",
+      "value": "patel riteshkumar girishbhai"
+    },
+    {
+      "key": "gpa",
+      "value": "6.76"
+    },
+    {
+      "key": "majorsubject",
+      "value": "agri-business management"
+    },
+    {
+      "key": "mediumofinstruction",
+      "value": "english"
+    },
+    {
+      "key": "minorsubject",
+      "value": "agri-business management"
+    },
+    {
+      "key": "nameofcollege",
+      "value": "p.g. institute of agri - business management, jau, junagadh"
+    },
+    {
+      "key": "registrationno",
+      "value": "2072116024"
+    },
+    {
+      "key": "semester",
+      "value": "first"
+    }
+  ],
+  "tables": [
+    {
+      "columns": [
+        {
+          "header": "cgpaorogpa"
+        },
+        {
+          "header": "credithours"
+        },
+        {
+          "header": "creditpoints"
+        },
+        {
+          "header": "gpa"
+        },
+        {
+          "header": "semester"
+        },
+        {
+          "header": "year"
+        }
+      ],
+      "rows": [
+        [
+          "1",
+          "121.7",
+          "182",
+          "6.76",
+          "6.76",
+          "first"
+        ],
+        [
+          "ii"
+        ],
+        [
+          "iii"
+        ],
+        [
+          "iv"
+        ],
+        [
+          "v"
+        ]
+      ],
+      "table_name": "summaryofstudentsperformance"
+    },
+    {
+      "columns": [
+        {
+          "header": "coursecategory"
+        },
+        {
+          "header": "coursenumber"
+        },
+        {
+          "header": "credithours"
+        },
+        {
+          "header": "creditpoints"
+        },
+        {
+          "header": "gradepoints"
+        },
+        {
+          "header": "sn"
+        },
+        {
+          "header": "titleofcourses"
+        }
+      ],
+      "rows": [
+        [
+          "1",
+          "10",
+          "n-c compulsory",
+          "pgs 502",
+          "s",
+          "technical writing & commu. skills @"
+        ],
+        [
+          "1",
+          "20.7",
+          "3",
+          "6.9",
+          "abm 501",
+          "major",
+          "principles of management and organizational behaviour"
+        ],
+        [
+          "1",
+          "9",
+          "library & information services @",
+          "n-c compulsory",
+          "pgs 501",
+          "s"
+        ],
+        [
+          "12.2",
+          "2",
+          "6.1",
+          "8",
+          "abm 515",
+          "operations research",
+          "supporting"
+        ],
+        [
+          "12.8",
+          "2",
+          "6.4",
+          "7",
+          "abm 513",
+          "computers for managers",
+          "supporting"
+        ],
+        [
+          "13.6",
+          "2",
+          "3",
+          "6.8",
+          "abm 504",
+          "major",
+          "managerial accounting and control"
+        ],
+        [
+          "14.2",
+          "2",
+          "5",
+          "7.1",
+          "abm 508",
+          "human resource management",
+          "major"
+        ],
+        [
+          "14.6",
+          "2",
+          "4",
+          "7.3",
+          "abm 505",
+          "communication for management & business",
+          "major"
+        ],
+        [
+          "15",
+          "2",
+          "6",
+          "7.5",
+          "abm 510",
+          "major",
+          "production and operations management"
+        ],
+        [
+          "18.6",
+          "2",
+          "3",
+          "6.2",
+          "abm 503",
+          "major",
+          "managerial economics"
+        ]
+      ]
+    }
+  ]
+}
