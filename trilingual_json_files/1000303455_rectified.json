@@ -1,0 +1,79 @@
+{
+  "document_title": "CERTIFICATE OF TRANSFERABLE DEVELOPMENT RIGHTS (TDR)",
+  "issuing_authority": "SURAT MUNICIPAL CORPORATION",
+  "main_details": [
+    {
+      "key": "address",
+      "value": "[placeholder address], surat, gujarat"
+    },
+    {
+      "key": "beneficiaryname",
+      "value": "amit patel"
+    },
+    {
+      "key": "certificateno",
+      "value": "smc/tdr/2026/002341"
+    },
+    {
+      "key": "date",
+      "value": "12 march 2026"
+    },
+    {
+      "key": "fileno",
+      "value": "smc/tdr/f/2026/09"
+    },
+    {
+      "key": "purpose",
+      "value": "tdr granted in lieu of land acquisition for road widening project"
+    }
+  ],
+  "tables": [
+    {
+      "rows": [
+        [
+          "1100 sq. meters",
+          "1350 sq. meters fsi",
+          "tdr issued",
+          "totalarea"
+        ],
+        [
+          "14",
+          "679",
+          "survey no",
+          "tp scheme"
+        ],
+        [
+          "beneficiary name",
+          "ketan vora"
+        ],
+        [
+          "certificate no",
+          "smc/tdr/2026/5566"
+        ]
+      ],
+      "table_name": "4keytdrdetailsforsuratmunicipalcorporation"
+    },
+    {
+      "rows": [
+        [
+          "112/1",
+          "survey no"
+        ],
+        [
+          "1200 sq. meters fsi (floor space index)",
+          "tdr credit issued"
+        ],
+        [
+          "980 sq. meters",
+          "land area (surrendered)"
+        ],
+        [
+          "fp no. 56",
+          "property details",
+          "tp scheme 22, surat"
+        ]
+      ],
+      "table_name": "3detailsofsurrenderedpropertyandtdrcalculation"
+    }
+  ]
+}
