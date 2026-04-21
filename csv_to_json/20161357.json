@@ -1,0 +1,52 @@
+{
+  "registration_no": "20161357",
+  "name": "Pranav Tiwari",
+  "gpa": "4.09",
+  "subjects": [
+    {
+      "code": "ABM 517",
+      "title": "AGRICULTURAL MARKETING MANAGEMENT",
+      "credit_points": "7.2"
+    },
+    {
+      "code": "ABM 521",
+      "title": "FARM BUSINESS MANAGEMENT",
+      "credit_points": "11.0"
+    },
+    {
+      "code": "ABM 526",
+      "title": "INTERNATIONAL TRADE & SUSTAINABILITY",
+      "credit_points": "7.6"
+    },
+    {
+      "code": "ABM 528",
+      "title": "GOVERNANCE",
+      "credit_points": "6.2"
+    },
+    {
+      "code": "ABM 530",
+      "title": "AGRIBUSINESS FINANCIAL MANAGEMENT",
+      "credit_points": "9.0"
+    },
+    {
+      "code": "ABM 532",
+      "title": "MANAGEMENT OF AGRICULTURAL INPUT MARKETING",
+      "credit_points": "6.6"
+    },
+    {
+      "code": "ABM 537",
+      "title": "AGRI-SUPPLY CHAIN MANAGEMENT",
+      "credit_points": "8.8"
+    },
+    {
+      "code": "ABM 537",
+      "title": "COMMODITY-FUTURE MARKETS AND DERIVATIVES",
+      "credit_points": "9.2"
+    },
+    {
+      "code": "PGS 505",
+      "title": "DISASTER MANAGEMENT",
+      "credit_points": "3.9"
+    }
+  ]
+}

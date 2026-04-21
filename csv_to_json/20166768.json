@@ -1,0 +1,52 @@
+{
+  "registration_no": "20166768",
+  "name": "Neha Chaudhary",
+  "gpa": "7.64",
+  "subjects": [
+    {
+      "code": "ABM 517",
+      "title": "AGRICULTURAL MARKETING MANAGEMENT",
+      "credit_points": "17.6"
+    },
+    {
+      "code": "ABM 521",
+      "title": "FARM BUSINESS MANAGEMENT",
+      "credit_points": "14.4"
+    },
+    {
+      "code": "ABM 526",
+      "title": "INTERNATIONAL TRADE & SUSTAINABILITY",
+      "credit_points": "13.8"
+    },
+    {
+      "code": "ABM 528",
+      "title": "GOVERNANCE",
+      "credit_points": "14.8"
+    },
+    {
+      "code": "ABM 530",
+      "title": "AGRIBUSINESS FINANCIAL MANAGEMENT",
+      "credit_points": "16.0"
+    },
+    {
+      "code": "ABM 532",
+      "title": "MANAGEMENT OF AGRICULTURAL INPUT MARKETING",
+      "credit_points": "13.6"
+    },
+    {
+      "code": "ABM 537",
+      "title": "AGRI-SUPPLY CHAIN MANAGEMENT",
+      "credit_points": "18.0"
+    },
+    {
+      "code": "ABM 537",
+      "title": "COMMODITY-FUTURE MARKETS AND DERIVATIVES",
+      "credit_points": "13.4"
+    },
+    {
+      "code": "PGS 505",
+      "title": "DISASTER MANAGEMENT",
+      "credit_points": "8.3"
+    }
+  ]
+}
